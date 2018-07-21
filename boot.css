@@ -1,0 +1,21 @@
+body{
+	justify-content: flex-end;
+	text-decoration-color: rgb(255,0,0);
+	font-weight: bolder;
+	text-transform: uppercase;
+	transition: all 1s;
+}
+.display-4{
+	text-shadow: 2px 2px orange;
+	font-size: 5em;
+}
+.btn-danger{
+	background-color: blue;
+}
+.btn-danger:hover{
+	background-color: black;
+}
+.kk:hover{
+	background-color: black;
+	color: white;
+}
