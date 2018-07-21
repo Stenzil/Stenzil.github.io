@@ -1,0 +1,62 @@
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: background-color 1s ease;
+  background-image: url(https://s3.envato.com/files/218429202/Preview_Image_.jpg) ;
+  background-size: cover;
+}
+#colors {
+  border-bottom: 1px solid white; 
+  position: fixed;
+  bottom:0;
+  left: 0; 
+  height:
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+h1{
+  color: white;
+  font-family: "Times new roman";
+  text-transform: uppercase;
+
+}
+h2{
+  color: black;
+  font-size: 4em;
+  border-right: 2px solid rgb(165, 11, 42);
+  border-bottom: 2px solid rgb(165, 11, 42);
+  width: 400px;
+  box-shadow: 4px 5px 5px rgb(165, 11, 42);
+  font-family: "Times new roman"
+}
+#colors li {
+  width: 10px;
+  height: 10px;
+  margin-right: 1px;
+  border: 1px solid lightgrey;
+  transition: all 0.3s ease 0s; 
+  -webkit-transition: all 0.3s ease 0s; 
+}
+
+#colors li:hover {
+  z-index: 222; 
+  height: 30px;
+}
+label{
+  font-family: "Times";
+  font-size: 1.5em;
+}
+
+.title-container{
+  color:blue;
+}
+.kk:hover{
+  background-color: black;
+  color: pink;
+
+}
+button:hover{
+  background-color: blue;
+}
